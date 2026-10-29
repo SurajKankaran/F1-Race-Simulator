@@ -1,0 +1,23 @@
+# F1 Race Strategy Simulator - Python 3.10 or newer
+# Install with:  pip install -r requirements.txt
+#
+# Version ranges (lower bound = version tested on 2026-09-19,
+# upper bound = next major release) so pip can pick a build that
+# matches your Python version. FastF1 itself requires pandas < 3.
+
+# Historical lap timing, tyre and stint data
+fastf1>=3.8.3,<4.0
+
+# Data processing and degradation modelling
+pandas>=2.1.1,<3.0
+numpy>=1.26,<3.0
+
+# Visualisation
+matplotlib>=3.8,<4.0
+plotly>=5.24,<8.0
+
+# Interactive dashboard (final integration step)
+streamlit>=1.40,<2.0
+
+# Notebook environment for exploration
+jupyter>=1.0,<2.0
